@@ -297,7 +297,7 @@ int main()
 
    fclose(fp2);
 
-   fpw = fopen("17EE30024_2.out", "w");
+   fpw = fopen("Decision_tree.out", "w");
 
    if(fpw == NULL) {
       printf("Unable to create output file\n");
